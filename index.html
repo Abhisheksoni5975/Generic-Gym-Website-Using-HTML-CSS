@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Fitness 21</title>
+    <link rel=href="/CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 9px auto;
+            padding: 0px;
+            background: url('/training-828741_1280.jpg');
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            top: 7px;
+            left: 35px;
+            color: honeydew;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            /* border: 2px solid darkred; */
+        }
+
+        .left img {
+            width: 100px;
+        }
+
+        .mid {
+            display: block;
+            width: 52%;
+            margin: 10px 400px;
+            color: honeydew;
+            border: 2px solid blueviolet;
+        }
+
+        .right {
+            position: absolute;
+            top: 17px;
+            left: 1139px;
+            color: teal;
+            /* border: 3px solid greenyellow; */
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            padding: 4px;
+            font-size: 20px;
+            display: inline-block;
+
+        }
+
+        .btn {
+            display: inline-block;
+            margin: opx 4px;
+            /* background-color: black; */
+            color: white;
+            padding: 14px 5px;
+            border: 10px;
+            border-radius: 10px;
+            font-size: 20px;
+
+
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 105px 14px;
+            padding: 75px;
+            width: 34%;
+            border-radius: 28px;
+        }
+
+        .form-group input {
+            font-family: 'Baloo Bhai', cursive;
+            text-align: center;
+            display: block;
+            width: 508px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 74%;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="/logo.jpg" alt="">
+        </div>
+        <div class="mid">
+            <ul class='navbar'>
+                <li>Home</li>
+                <li>Gallery</li>
+                <li>Fitness Calculator</li>
+                <li>Get Assistance</li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="btn">Contact</div>
+            <div class="btn">Help</div>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Delhi now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
